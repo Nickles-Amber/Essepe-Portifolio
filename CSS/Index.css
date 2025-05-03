@@ -1,0 +1,729 @@
+/*-----------------------Imagem do topo-----------------------*/
+
+div#TopImage {
+	background: url('../Img/Topo\ imagem.png')no-repeat;
+	background-size: cover;
+    background-position: center;
+    height: 350px;
+    
+    position: relative;
+    margin-top: 51px;
+    }
+    
+    section.ImageInterface{
+        max-width: 850px;
+        min-width: 440px;
+        width: 100%;
+        padding: 0 10px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 70px;
+    }
+
+    section.ImageInterface h1.TopTitle{
+        display: block;
+        width: fit-content;
+        margin: 0 auto;
+        position: relative;
+        font-family: 'Rubik-Bold';
+        font-size: 35px;
+        color: #F8F9F4;
+        font-weight: 100;
+    }
+
+    section.ImageInterface p{
+        display: block;
+        width: fit-content;
+        margin: 0 auto;
+        position: relative;
+        font-family: 'Rubik-Regular';
+        font-size: 20px;
+        color: #F8F9F4;
+        font-weight: 100;
+        text-align: center;
+        padding-top: 44px;
+    }
+
+    /*---------------------Principais Categorias-----------------------*/
+
+    div#categorias {
+        background-size: contain;
+        background-position: center;
+        background-color: #F8F9F4;
+        height: 630px;
+        position: relative;        
+        }
+
+        section.imagens-e-categorias{
+            max-width: 962px;
+            min-width: 440px;
+            width: 100%;
+            padding: 0 10px;
+            position: relative;
+            left: 50%;
+            transform: translateX(-50%);
+            top: 33px;
+        }
+
+        section.imagens-e-categorias h1.titulo-categorias{
+            display: block;
+            width: fit-content;
+            margin: 0 auto;
+            position: relative;
+            font-family: 'Rubik-Bold';
+            font-size: 30px;
+            color: #000000;
+            font-weight: 100;
+            padding-bottom: 1vh;
+        }
+        
+        /*---------------------------Cada categoria na tela inicial----------------------------*/
+
+            section.imagens-e-categorias nav#escolha-de-categorias
+            {
+                font-family: 'Rubik-Bold';
+                font-size: 25px;
+                color: #F8F9F4;
+            }
+        
+            section.imagens-e-categorias nav#escolha-de-categorias ul.lista-de-categorias
+            {
+                display: flex;
+                list-style: none;
+                flex-flow: row;
+                flex-wrap: wrap;
+                justify-content: flex-end;
+            }
+
+            section.imagens-e-categorias nav#escolha-de-categorias ul.lista-de-categorias .museus a
+            {
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                left: 0;
+                background-image: url('../Img/ipiranga\ 50\ .png');
+                background-size: cover;
+                transition: transform 0.3s ease-in-out;
+                pointer-events: auto;
+            }
+
+            .lista-de-categorias .museus a:hover
+            {
+                background-image: url('../Img/ipiranga\ 75.png');
+                transform: scale(1.05);
+            }
+
+            section.imagens-e-categorias nav#escolha-de-categorias ul.lista-de-categorias li
+            {
+                display: inline-block;
+                position: relative;
+            }
+            
+            section.imagens-e-categorias nav#escolha-de-categorias ul.lista-de-categorias li.museus
+            {
+                margin: 7px;
+                width: 230px;
+                height: 188.40px;
+            }
+            
+
+                section.imagens-e-categorias nav#escolha-de-categorias ul.lista-de-categorias li.museus label
+                {
+                    position: absolute;
+                    top: 79px;
+                    left: 67.5px;
+                    pointer-events: none;
+                }
+
+            section.imagens-e-categorias nav#escolha-de-categorias ul.lista-de-categorias li.parques
+            {
+                margin: 7px;
+                width: 230px;
+            }
+
+                section.imagens-e-categorias nav#escolha-de-categorias ul.lista-de-categorias li.parques img
+                {
+                    width: 230px;
+                    height: 187.2px;
+                }
+
+                    section.imagens-e-categorias nav#escolha-de-categorias ul.lista-de-categorias li.parques label
+                    {
+                        position: absolute;
+                        top: 79px;
+                        left: 63.5px;
+                        pointer-events: none;
+                    }
+
+                    section.imagens-e-categorias nav#escolha-de-categorias ul.lista-de-categorias .parques a
+            {
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                left: 0;
+                background-image: url('../Img/ibira\ 50.png');
+                background-size: cover;
+                transition: transform 0.3s ease-in-out;
+                pointer-events: auto;
+            }
+
+            .lista-de-categorias .parques a:hover
+            {
+                background-image: url('../Img/ibira\ 75.png');
+                transform: scale(1.05);
+            }
+            
+            section.imagens-e-categorias nav#escolha-de-categorias ul.lista-de-categorias li.mais-visitados
+            {
+                margin: 7px 8.3px;
+                width: 437.24px;                
+            }
+            
+                section.imagens-e-categorias nav#escolha-de-categorias ul.lista-de-categorias li.mais-visitados img
+                {
+                    width: 437.24px;
+                    height: 187.2px;
+                }
+
+                    section.imagens-e-categorias nav#escolha-de-categorias ul.lista-de-categorias li.mais-visitados label
+                    {
+                        position: absolute;
+                        top: 79px;
+                        left: 129.75px;
+                        pointer-events: none;
+                    }
+
+                    section.imagens-e-categorias nav#escolha-de-categorias ul.lista-de-categorias .mais-visitados a
+            {
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                left: 0;
+                background-image: url('../Img/liba\ 50.png');
+                background-size: cover;
+                transition: transform 0.3s ease-in-out;
+                pointer-events: auto;
+            }
+
+            .lista-de-categorias .mais-visitados a:hover
+            {
+                background-image: url('../Img/liba\ 75.png');
+                transform: scale(1.05);
+            }
+
+            section.imagens-e-categorias nav#escolha-de-categorias ul.lista-de-categorias li.restaurantes
+            {
+                margin: 7px;
+                width: 230px;
+            }
+
+                section.imagens-e-categorias nav#escolha-de-categorias ul.lista-de-categorias li.restaurantes img
+                {
+                    width: 230px;
+                    height: 240.69px;
+                }
+
+                    section.imagens-e-categorias nav#escolha-de-categorias ul.lista-de-categorias li.restaurantes label
+                    {
+                        position: absolute;
+                        top: 105.85px;
+                        left: 30px;
+                        pointer-events: none;
+                    }
+
+                    section.imagens-e-categorias nav#escolha-de-categorias ul.lista-de-categorias .restaurantes a
+            {
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                left: 0;
+                background-image: url('../Img/rest\ 50.png');
+                background-size: cover;
+                transition: transform 0.3s ease-in-out;
+                pointer-events: auto;
+            }
+
+            .lista-de-categorias .restaurantes a:hover
+            {
+                background-image: url('../Img/rest\ 75.png');
+                transform: scale(1.05);
+            }
+
+            section.imagens-e-categorias nav#escolha-de-categorias ul.lista-de-categorias li.pontos-turisticos
+            {
+                margin: 7px;
+                width: 367.72px;
+            }
+
+                section.imagens-e-categorias nav#escolha-de-categorias ul.lista-de-categorias li.pontos-turisticos img
+                {
+                    width: 367.72px;
+                    height: 240.69px;
+                }
+
+                    section.imagens-e-categorias nav#escolha-de-categorias ul.lista-de-categorias li.pontos-turisticos label
+                    {
+                        position: absolute;
+                        top: 105.84px;
+                        left: 75px;
+                        pointer-events: none;
+                    }
+                    
+                    section.imagens-e-categorias nav#escolha-de-categorias ul.lista-de-categorias .pontos-turisticos a
+            {
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                left: 0;
+                background-image: url('../Img/catedral\ 50.png');
+                background-size: cover;
+                transition: transform 0.3s ease-in-out;
+                pointer-events: auto;
+            }
+
+            .lista-de-categorias .pontos-turisticos a:hover
+            {
+                background-image: url('../Img/catedral\ 75.png');
+                transform: scale(1.05);
+            }
+
+            section.imagens-e-categorias nav#escolha-de-categorias ul.lista-de-categorias li.Todas-as-categorias
+            {
+                margin: 7px;
+                font-family: 'Rubik-Regular';
+                font-size: 15px;
+                color: #000000;
+                display:flex;                
+                flex-direction: row;
+             
+            }
+
+            .Todas-as-categorias a
+            {
+                width: 100%;
+                height: 100%;
+                position: absolute;
+            }
+
+                section.imagens-e-categorias nav#escolha-de-categorias ul.lista-de-categorias li.Todas-as-categorias svg
+                {
+                    position: relative;
+                    width: 10.8px;
+                    height: 18px;
+                    top: 1px;
+                    margin-left: 6px;
+                }
+                    /*------------------------Teatros e Exposições----------------------------------*/
+                        section.imagens-e-categorias nav#escolha-de-categorias ul.lista-de-categorias ul#teatros-e-exposicoes
+                        {
+                            display: flex;
+                            flex-flow: column;
+                            width: 302.28px;
+                            height: 246.69px;
+                            margin: 7px;
+                        }
+
+
+                            section.imagens-e-categorias nav#escolha-de-categorias ul.lista-de-categorias li.teatros
+                            {
+                                margin-bottom: 10px;
+                                width: 302.28px;
+                                height: 113.44px;
+                            }
+
+                            
+
+                                section.imagens-e-categorias nav#escolha-de-categorias ul.lista-de-categorias li.teatros img
+                                {
+                                    width: 302.28px;
+                                    height: 113.44px;
+                                }
+
+                                
+
+                                section.imagens-e-categorias nav#escolha-de-categorias ul.lista-de-categorias li.teatros label
+                                {
+                                    position: absolute;
+                                    top: 42.22px;
+                                    left: 103.60px;
+                                    pointer-events: none;
+                                }
+
+                                section.imagens-e-categorias nav#escolha-de-categorias ul.lista-de-categorias .teatros a
+                {
+                    width: 100%;
+                    height: 100%;
+                    position: absolute;
+                    left: 0;
+                    background-image: url('../Img/teatro\ 50.png');
+                    background-size: cover;
+                    transition: transform 0.3s ease-in-out;
+                    pointer-events: auto;
+                }
+
+                .lista-de-categorias .teatros a:hover
+                {
+                    background-image: url('../Img/teatro\ 75.png');
+                    transform: scale(1.05);
+                }
+
+                            section.imagens-e-categorias nav#escolha-de-categorias ul.lista-de-categorias li.exposicoes
+                            {
+                                margin-top: 10px;
+                                width: 302.28px;
+                                height: 120.32px;
+                            }
+
+                                section.imagens-e-categorias nav#escolha-de-categorias ul.lista-de-categorias li.exposicoes img
+                                {
+                                    width: 302.28px;
+                                    height: 113.44px;
+                                }
+
+                                
+                                    section.imagens-e-categorias nav#escolha-de-categorias ul.lista-de-categorias li.exposicoes label
+                                    {
+                                        position: absolute;
+                                        top: 42.22px;
+                                        left: 80.50px;
+                                        pointer-events: none;
+                                    }
+
+                                    section.imagens-e-categorias nav#escolha-de-categorias ul.lista-de-categorias .exposicoes a
+                {
+                    width: 100%;
+                    height: 100%;
+                    position: absolute;
+                    left: 0;
+                    background-image: url('../Img/exp\ 50.png');
+                    background-size: cover;
+                    transition: transform 0.3s ease-in-out;
+                    pointer-events: auto;
+                }
+
+                .lista-de-categorias .exposicoes a:hover
+                {
+                    background-image: url('../Img/exp\ 75.png');
+                    transform: scale(1.05);
+                }
+
+    /*----------------Conhecendo a Cidade---------------------*/
+
+     div#conhecendo-a-cidade {
+        background-size: contain;
+        background-position: center;
+        background-color: #000000;
+        height: 750px;
+        position: relative;                
+        }
+
+        section.fundo-preto{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 100%;
+            padding: 0 10px;
+            position: relative;
+            left: 50%;
+            transform: translateX(-50%);
+            align-items: center;
+            height: 750px;
+        }
+
+        section.fundo-preto svg#logo-no-conhecendo
+        {
+            margin: 0 auto;
+            height: 35px;
+        }
+
+        #linha-do-tempo
+        {
+            width: 105%;
+            position: absolute;
+        }
+
+        .linha-do-tempo-container {
+            width: 95.25%;
+            position: absolute;
+            margin-top: 10vh;
+            overflow:visible;
+            background-image: url(data:image/svg+xml;base64,PHN2ZyBpZD0ibGluaGEtZG8tdGVtcG8iIHdpZHRoPSIyNzU5IiBoZWlnaHQ9IjI1OCIgdmlld0JveD0iMCAwIDI3NTkgMjU4IiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogICAgICAgICAgICAgICAgICAgICAgICA8ZWxsaXBzZSBjeD0iNTQ4LjQxMiIgY3k9IjMwLjg2OTMiIHJ4PSIyNS43OTE5IiByeT0iMjcuMDgxNSIgZmlsbD0iI0Q2MTAxOCIvPgogICAgICAgICAgICAgICAgICAgICAgICA8ZWxsaXBzZSBjeD0iMTM3MS4zOSIgY3k9IjE1NS43NDUiIHJ4PSIyNS43OTE5IiByeT0iMjcuMDgxNSIgZmlsbD0iI0Q2MTAxOCIvPgogICAgICAgICAgICAgICAgICAgICAgICA8ZWxsaXBzZSBjeD0iMjIxNS40MyIgY3k9IjI3Ljg2MDUiIHJ4PSIyNS43OTE5IiByeT0iMjcuMDgxNSIgZmlsbD0iI0Q2MTAxOCIvPgogICAgICAgICAgICAgICAgICAgICAgICA8cGF0aCBkPSJNMS41IDI1NUw1NDcgMjYuNSIgc3Ryb2tlPSIjRDYxMDE4IiBzdHJva2Utd2lkdGg9IjUiLz4KICAgICAgICAgICAgICAgICAgICAgICAgPHBhdGggZD0iTTEzNzAgMTU0LjVMNTQ3IDI2IiBzdHJva2U9IiNENjEwMTgiIHN0cm9rZS13aWR0aD0iNSIvPgogICAgICAgICAgICAgICAgICAgICAgICA8cGF0aCBkPSJNMTM3MCAxNTUuNUwyMjEzIDI3IiBzdHJva2U9IiNENjEwMTgiIHN0cm9rZS13aWR0aD0iNSIvPgogICAgICAgICAgICAgICAgICAgICAgICA8cGF0aCBkPSJNMjc1OCAyNTUuNUwyMjEzLjUgMjYuNSIgc3Ryb2tlPSIjRDYxMDE4IiBzdHJva2Utd2lkdGg9IjUiLz4KICAgICAgICAgICAgICAgICAgICAgICAgPC9zdmc+);
+        }
+        
+
+        div#conhecendo-a-cidade section.fundo-preto div#textos-e-fotos-dos-pontos
+        {
+            display: flex;
+            flex-flow: row;
+            color: #F8F9F4;
+            font-family: 'Rubik-Regular';
+            font-size: 15px;
+            text-align: center;
+            padding-bottom: 40px;
+            margin-top: 114px;
+            width: 100%;
+        }
+
+
+        
+
+        div#conhecendo-a-cidade section.fundo-preto div#textos-e-fotos-dos-pontos .turistico
+        {
+            width: 30%;
+            height: auto;
+        }
+
+        div#conhecendo-a-cidade section.fundo-preto div#textos-e-fotos-dos-pontos div#ano-2023
+        {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        margin-left: 75px;
+        margin-top: -70px;
+        }
+
+        div#conhecendo-a-cidade section.fundo-preto div#textos-e-fotos-dos-pontos div#ano-1815
+        {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        margin: 0 auto;
+        margin-bottom: -50px;
+        }
+
+        div#conhecendo-a-cidade section.fundo-preto div#textos-e-fotos-dos-pontos div#ano-1554
+        {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        margin-right: 75px;
+        margin-top: -65px;
+        }
+
+        div#conhecendo-a-cidade section.fundo-preto div#textos-e-fotos-dos-pontos p
+        {
+            margin-top: 27px;
+            width: 310px;
+            text-align: justify;
+        }
+
+        section.fundo-preto h1.titulo-conhecendo-a-cidade{
+            display: block;
+            width: fit-content;
+            margin: 0 auto;
+            position: relative;
+            font-family: 'Rubik-Bold';
+            font-size: 30px;
+            color: #F8F9F4;
+            font-weight: 100;
+        }
+        
+    /*------------Quer conhecer um pouco mais de São Paulo?--------------*/
+
+    div#quer-conhecer {
+        box-sizing: border-box;
+        background-size: cover;
+        background: url('../Img/City\ tour.jpg')no-repeat;
+        background-position: center 75%;
+        height: 280.5px;        
+        position: relative;
+        margin-bottom: 90px;      
+        }
+
+
+        div#quer-conhecer nav.imagem-conhecer{
+            display: flex;
+            flex-direction: column;
+            max-width: 850px;
+            min-width: 440px;
+            padding: 0 10px;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            top: 24px;
+            opacity: 1;
+        }
+
+        div#quer-conhecer nav.imagem-conhecer h1.pergunta-conhecer{
+            display: block;
+            width: fit-content;
+            margin: 0 auto;
+            position: relative;
+            font-family: 'Rubik-Bold';
+            font-size: 20px;
+            color: #F8F9F4;
+            font-weight: 100;
+            margin-bottom: 23px;
+            margin-top: 39px;
+        }
+
+        div#quer-conhecer nav.imagem-conhecer button.ideias
+        {
+            border-radius: 10px;
+            margin: 0 auto;
+            width: 267px;
+            height: 48px;
+            text-align: center;
+            background-color: #D61018;
+            border-style: none;
+        }
+
+        .ideias a
+        {
+            width: 267px;
+            height: 48px;
+            position: absolute;
+            bottom: 0;
+            left: 21.1%;
+        }
+
+        div#quer-conhecer nav.imagem-conhecer button.ideias:hover
+        {
+            border-radius: 10px;
+            margin: 0 auto;
+            width: 267px;
+            height: 48px;
+            text-align: center;
+            background-color: #000000;
+            border-style: none;
+        }
+
+        div#quer-conhecer nav.imagem-conhecer button.ideias ul#botao-tour
+        {
+            display: flex;
+            flex-direction: row;
+            list-style: none;
+            font-family: 'Rubik-Regular';
+            margin: 0 9px;
+            
+        }
+
+        div#quer-conhecer nav.imagem-conhecer button.ideias p#tour
+        {
+            text-align: center;           
+            color: #F8F9F4;
+            font-size: 15px;
+            margin-left: 5px;
+        }
+
+        div#quer-conhecer nav.imagem-conhecer button.ideias div#svg-interrogacao
+        {
+            position: center;
+            margin-left:5px;
+            size: 27px 27px;            
+        }
+
+
+
+    /*---------------------Quem somo?---------------------*/
+
+
+        div#titulo-quem-somos
+        {
+            position: absolute;
+        }
+
+        div#titulo-quem-somos h1.pergunta-quem-somos
+        {
+        font-family: 'Rubik-Bold';
+        font-size: 40px;
+        text-align: center;
+        margin-left: 104px;
+        color: #F8F9F4;
+        background-color: #000000;
+        width: 350px;        
+        padding: 25px 21px; 
+               
+        }
+
+        div#quem-somos  section.fundo-do-quem-somos
+        {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;        
+            background-size: contain;
+            background-color: #D61018;
+            height: 450px;
+            margin-bottom: 100px;            
+            display: flex;
+            flex-direction: column;
+            margin-top: -90px;
+        }
+
+        div#quem-somos  div#titulo-quem-somos
+        {
+            position: relative;
+            margin-bottom: 40px;
+        }
+
+
+        
+        
+        div#quem-somos  section.fundo-do-quem-somos p
+        {
+        font-family: 'Rubik-Regular';
+        font-size: 25px;
+        text-align: center;
+        max-width: 900px;
+        min-width: 200px;
+        padding-top: 90px;
+        padding-bottom: -10px;
+        margin: 0 auto;
+        margin-top: 50px;
+        margin-bottom: 10px;
+        color: #F8F9F4;
+ 
+        }
+
+        .VetorCidade {
+            margin-top: 50px;
+            height: 200px;
+            width: 100%;
+            margin-bottom: 80px;
+        }
+
+        div#quem-somos  section.fundo-do-quem-somos svg#vetor-quem-somos
+        {
+            display: flex;
+            justify-content: center;
+            padding-bottom: 65px;
+            width: 100%;
+            height: 247px;
+        }
+
+
+
+
+
+        @media screen and (max-width: 1120px) {
+            #textos-e-fotos-dos-pontos p
+            {
+                font-size: 70%;
+                width: 200px;
+            }
+            .turistico
+            {            
+                width: 30%;
+            }
+
+            #textos-e-fotos-dos-pontos
+            {
+                margin-top: 75%;
+            }
+            #logo-no-conhecendo
+            {
+                margin-bottom: 40%;
+            }
+            #conhecendo-a-cidade
+            {
+                height: 200px;
+            }
+            .linha-do-tempo-container {
+                margin-top: 17vh;
+            }
+            .fundo-preto h1
+            {
+                margin-top: -20%;
+            }
+        }

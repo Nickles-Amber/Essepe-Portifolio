@@ -1,0 +1,174 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+/*------Fontes-------*/
+@font-face{
+    src: url('../fonts/Poppins.ttf');
+    font-family: Poppins;
+}
+@font-face{
+    src: url('../fonts/Staatliches.ttf');
+    font-family: Staat;
+}
+@font-face{
+    src: url('../fonts/Schoolbell.ttf');
+    font-family: School;
+}
+@font-face {
+    font-family: Rubik-Bold;
+    src: url('../Fontes/Rubik/static/Rubik-Bold.ttf');
+}
+@font-face {
+    font-family: Rubik-Regular;
+    src: url('../Fontes/Rubik/static/Rubik-Regular.ttf');
+}
+@font-face {
+    font-family: Rubik-Semibold;
+    src: url('../Fontes/Rubik/static/Rubik-SemiBold.ttf');
+}
+
+
+/*-----------------HTML estilo--------------------*/
+
+html{
+    background-color: #F8F9F4;
+}
+
+/*----------------Voltar----------------*/
+
+.btn-voltar {
+    display: inline-block;
+    font-family: 'Rubik-Regular';
+    background-color: rgba(0, 0, 0, 0.01);;
+    color: black;
+    text-decoration: none;
+    padding: 8px 16px 8px 16px;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    margin-bottom: 285px;
+    margin-right: 90px;
+}
+
+.btn-voltar:hover {
+    background-color: #D61018;
+}
+
+/*-----Barra dos dados pessoais do usuário -----*/
+
+div#port
+{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 17%;
+    margin-bottom: 8%;
+    margin-top: -10%;
+} 
+
+div#fale{
+    position: relative;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+div#fale div{
+    width: 100%;
+    margin-top: -5%;
+    margin-left: -5%;
+    background-color: black;
+    min-width: 600px;
+    padding: 10px;
+    box-sizing: border-box;
+    height: fit-content;
+    box-shadow: 0 2px 2px rgba(0,0,0,.2);
+}
+div#fale div h1,div#fale div h2{
+    font-weight: 100;
+    color: #fff;
+    font-size: 40px;
+    margin: 40px;
+}
+div#fale div h1{
+    font-family: 'Rubik-Bold';
+    font-size: 50px;
+    line-height: 30px;
+    padding-top: 15px;
+}
+div#fale div h2{
+    font-family: 'Rubik-Regular';
+    font-size: 25px;
+    color: white;
+    padding-bottom: 15px;
+}
+div#fale div section.campo{
+    font-family: 'Rubik-Regular';
+    margin-bottom: 25px;
+    margin-left: 30px;
+    margin-right: 30px;
+    display: flex;
+}
+div#fale div section.campo input, div#fale div section.campo select, div#fale div section.campo textarea{
+    width: 100%;
+    outline: none;
+    border: none;
+    border-bottom: solid 1px #999;
+    font-family: 'Rubik-Regular';
+    font-size: 20px;
+    padding: 5px 2px;
+    background-color: transparent;
+    margin: 0 5px;
+    color: white;
+    position: relative;
+    resize: none;
+    transition: border-color .4s;
+}
+div#fale div section.campo input:focus,div#fale div section.campo textarea:focus{
+    border-color: #CF1F1F;
+}
+div#fale div section.submit input[type="submit"]{
+    border: none;
+    outline: none;
+    font-family: 'Rubik-Regular';
+    font-size: 25px;
+    color: white;
+    padding: 10px 40px;
+    display: block;
+    border-radius: 2px;
+    border: #fff solid 1px;
+    background: transparent;
+    transition: color .4s, border-color .4s;
+    margin-left: 36px;
+}
+div#fale div section.submit input[type="submit"]:hover{
+    border-color: #CF1F1F;
+    color: #CF1F1F;
+}
+div#fale div section.submit a{
+    float: right;
+    font-family: rubik;
+    color: #666;
+    font-size: 14px;
+}
+option{
+    color: black;
+}
+/*----Botão de Enviar----*/
+
+#fale .submit input[type="submit"] {
+    background-color :#CF1F1F;
+    color: #F8F9F4;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/*---Vetor Cidade---*/
+
+.VetorCidade {
+    margin-top: 80px;
+    height: 200px;
+    width: 100%;
+}

@@ -1,0 +1,194 @@
+.imagenspq {
+    border-radius:10px;
+    border-color: black;
+    border-style: solid;
+    background-size: contain;
+    background-position: center;
+    height: 630px;
+    position: relative;}
+
+
+
+.ftspaque { max-width: 900px;
+min-width: 400px;
+width:100%;
+position:relative;
+left: 50%;
+top:33px;
+align-items: center;}
+
+.fotospq { display:flex;
+    list-style: none;
+    flex-flow: row;
+    flex-wrap: wrap;}
+
+    .imagensquadro { margin:10px;}
+
+    .caixa{ border-radius:10px;
+        border-color: black;
+        border-style: none;
+        margin-bottom: 40px;
+        
+    }
+
+
+        .localizacao{border-radius:10px;
+            border-color: black;
+            border-style: solid;
+            margin:20px auto;
+            padding: 10px;
+            width: 744px;
+        }
+
+            .sobre{border-radius:10px;
+                border-color: black;
+                border-style: solid;
+                margin:20px auto;
+                padding: 10px;
+                width: 744px;
+            }
+
+
+    .avaliacoes{border-radius:10px;
+        border-color: black;
+        border-style: solid;
+        margin:20px auto;
+        padding: 10px;
+        width: 744px;
+        }
+
+    .comentarios{border-radius:10px;
+    border-color: black;
+    border-style: solid;
+    margin:10px;
+   }
+
+
+    
+    .imgcomentarios{
+        display: flex;
+         flex-flow: row;
+        margin-top: 2%;
+        margin-left: 3%;}
+
+        .fotos-Villa-Lobos
+        {
+            align-self: center;
+            width: 744px;
+        }
+        
+        main
+        {
+            margin-top: -160px;
+            width: 100%;
+            z-index: 1;
+        }
+
+        .fotos-Villa-Lobos
+        {
+            margin: 0 auto;
+        }
+
+        #titulo-Villa-Lobos
+        {
+            text-align: center;
+            font-family: 'Rubik-Bold';
+            font-size: 50px;
+            width: 100%;
+            color: #D61018;
+            margin-bottom: 81px;
+        }
+
+        h1
+        {
+            text-align: center;
+            color: #D61018;
+        }
+
+        .caixa h1
+        {
+            font-family: 'Rubik-Bold';
+            font-size: 20px;
+            
+        }
+
+        .caixa p
+        {
+            font-family: 'Rubik-Regular';
+            font-size: 16px;
+        }
+
+        .comentarios p
+        {
+            font-family: 'Rubik-Regular';
+            font-size: 18px;
+        }
+
+        .comentarios h2
+        {
+            font-family: 'Rubik-Regular';
+            font-size: 23px;
+        }
+
+        #vetor-cidade
+        {
+            width: 100%;
+            margin-top: 88px;
+        }
+
+        .localizacao, .sobre, .avaliacoes{
+            border-width: 2px;
+            margin-left: 27%;
+            width: 47%;
+        }
+
+        .comentarios{
+            border-width: 2px;
+        }
+
+        .localizacao p
+        {
+            margin: 1% 5%;
+        }
+
+        .sobre p
+        {
+            margin: 2% 5%;
+        }
+
+        .comentarios p
+        {
+            margin: 1% 10%;
+        }
+
+        .colocado1 
+        {
+            margin: 2% 10%;
+            margin-right: .5%;
+        }
+
+        .colocado2
+        {
+            margin: 2% 10%;
+            margin-left: 0%;
+        }
+        
+        .estrela
+        {
+            height: 24px;
+            margin-left: 40%;
+        }
+
+        #foto-perfil
+        {
+            margin-right: 2%;
+            height: 33px;
+            width: 33px;
+        }
+
+        .nomecomem
+        {
+            width: 220px;
+            position: relative;
+            top:3px;
+        }

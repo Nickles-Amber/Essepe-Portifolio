@@ -1,0 +1,103 @@
+#lista-restaurantes
+{
+    margin-top: 132px;
+    max-height: 1389px;
+    flex-wrap: wrap;
+}
+
+.opção
+{
+    width: 274px;
+    height: 354px;
+    margin: 50px 70px;
+    list-style: none;
+}
+
+#polaroid
+{
+    display: flex;
+    flex-flow: column;
+    width: 230px;    
+    text-align: left;
+    left: 21px;
+    margin-top: -88px;
+    margin-left: 23px;
+}
+
+#titulo-opções
+{
+    display: flex;
+}
+
+#polaroid h1
+{
+    font-family: 'Rubik-Bold';
+    font-size: 20px;
+    margin-right: auto;
+}
+
+#polaroid p
+{
+    font-family: 'Rubik-Regular';
+    font-size: 20px;
+}
+
+.a-lista-dos-restaurantes
+{
+    display: flex;
+    flex-flow: column;
+    max-height: 1362px;
+    max-width: 1242px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+
+}
+
+#Cidade
+{
+    width: 100%;
+}
+
+#restaurantes-titulo
+{
+    font-family: 'Rubik-Bold';
+    font-size: 50px;
+    color: #D61018;
+}
+
+#destaques-titulo
+{
+    font-family: 'Rubik-Bold';
+    font-size: 35px;
+}
+
+.Título
+{
+    margin-top: 10px;
+    padding-top: 82px;
+    text-align: center;
+}
+
+
+
+.btn-voltar {
+    display: inline-block;
+    font-family: 'Rubik-Regular';
+    background-color: rgba(0, 0, 0, 0.01);
+    color: black;
+    text-decoration: none;
+    padding: 8px 16px 8px 16px;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+   margin-left: 3%;
+    margin-top: 110px;
+    
+  }
+   
+  .btn-voltar:hover {
+    background-color: #D61018;
+  }
+
+  .link{color: #000000;
+    text-decoration: none;}

@@ -1,0 +1,267 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+/*------Fontes-------*/
+@font-face {
+    font-family: Rubik-Bold;
+    src: url('../Fontes/Rubik/static/Rubik-Bold.ttf');
+}
+@font-face {
+    font-family: Rubik-Regular;
+    src: url('../Fontes/Rubik/static/Rubik-Regular.ttf');
+}
+@font-face {
+    font-family: Rubik-Semibold;
+    src: url('../Fontes/Rubik/static/Rubik-SemiBold.ttf');
+}
+
+
+/*-----------------HTML estilo--------------------*/
+
+html{
+    background-color: #F8F9F4;
+}
+
+/*-------------------Botão Voltar-----------------*/
+
+
+.btn-voltar {
+    display: inline-block;
+    font-family: 'Rubik-Regular';
+    background-color: rgba(0, 0, 0, 0.01);;
+    color: black;
+    text-decoration: none;
+    padding: 8px 16px 8px 16px;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    margin-top: -100px;
+
+}
+
+.btn-voltar:hover {
+    background-color: #D61018;
+}
+
+.btn-voltar:hover {
+    background-color: #D61018;
+}
+
+
+/*-----------------perfil maya--------------------*/
+
+main {
+    margin-top: 136px;
+}
+
+.mayaperfil {
+    display: flex;
+    align-items: center;
+}
+
+.maya {
+    width: 100px;
+    height: 100px;
+    margin-left: 10px;
+}
+
+.localização {
+    margin-left: 20px;
+    width: 15px;
+    height: 15px;
+}
+
+.mayaperfil p {
+    margin: 0;
+}
+
+.mayaperfil li {
+    display: flex;
+    flex-direction: column;
+}
+
+.mayaperfil h1 {
+    font-family: 'Rubik-Bold'; 
+    color: white;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    order: 1;
+}
+
+.mayaperfil h2 {
+    font-family: 'Rubik-Regular';
+    font-size: 20px;
+    margin-left: 20px;
+    margin-bottom: 7px;
+    order: 2;
+}
+
+.mayaperfil .sp {
+    display: flex;
+    align-items: center; 
+    order: 3; 
+}
+
+.mayaperfil .localização {
+    margin-left: 20px;
+    height: 15px;
+    width: 12px;
+}
+
+.mayaperfil .paragrafo {
+    font-family: 'Rubik-Regular';
+    margin-left: 10px;
+}
+
+.container-main1 {
+    background-color: #000;
+    padding: 20px;
+    border-radius: 25px;
+    width: 40%;
+    margin: 0 auto;
+    overflow: hidden;
+
+    margin-bottom: -2%;
+}
+
+main p {
+    color: white;
+    font-family: 'Rubik';
+    text-align: center;
+    font-size: 100%;
+}
+
+main h1 {
+    color: white;
+}
+
+main h2 {
+    color: white;
+}
+
+/*------Editar Perfil-------*/
+
+.editar-perfil-btn {
+    font-family: 'Rubik-Regular';
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    border: 2px solid #fff; 
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    background-color: #000; 
+    color: #fff; 
+    transition: background-color 0.3s ease, color 0.3s ease;
+
+    margin-top: 10px;
+    margin-right: 13px;
+  }
+
+/* Efeito de hover para o botão */
+.editar-perfil-btn:hover {
+    background-color: white;
+    color: #000;
+  }
+
+/* Estilos para o container-main1 */
+.container-main1 {
+    position: relative; 
+  }
+
+/*--------Galeria--------*/ 
+
+.container-main2 {
+    background-color:  #D2D2D2;
+    padding: 20px;
+    border-radius: 30px;
+    width: 40%;
+    height: 10%;
+    margin: 0 auto;
+    overflow: hidden;
+    display: inline-block;
+    align-items: center;
+    flex-flow: column;
+
+    border-top-left-radius: 0px;
+}
+
+#Imagem3 img, #Imagem4 img{
+    margin: 10px;
+    margin-left: 3px;
+    margin-top: 10px;
+    margin-bottom: 2px;
+}
+
+.tabcontent img{
+    margin: 10px;
+}
+
+body {
+    font-family: 'Rubik-Regular';
+    margin: 0;
+}
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+
+    box-sizing: border-box;
+  }
+  
+  /* Style the buttons that are used to open the tab content */
+  .tab button {
+    background-color: #E5E6E3;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    
+    width: 190px;
+    font-family: 'Rubik-Bold';
+    font-size: 28px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+    background-color: #d2d2d2;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    background-color: #D2D2D2;
+    display: none;
+    padding: 20px;
+    border-top: none;
+
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+
+/*-------Vetor da Cidade-------*/
+
+.VetorCidade {
+    margin-top: 80px;
+    height: 200px;
+    width: 100%;
+}

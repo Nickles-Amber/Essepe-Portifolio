@@ -1,0 +1,106 @@
+
+main{margin-top: 80px;}
+
+
+.citys{ display: flex;
+width: 50%;
+height: 206px;
+border-radius:10px;
+border-color: #D9D9D9;
+border-style: solid;
+border-width: 3px;
+margin: 20px auto;
+align-items: center;
+justify-content: center;
+
+}
+
+.btn-voltar {
+    display: inline-block;
+    font-family: 'Rubik-Regular';
+    background-color: rgba(0, 0, 0, 0.01);;
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px 8px 16px;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.btn-voltar:hover {
+    background-color: #D61018;
+}
+
+#text{ margin:20px;
+font-family: 'Rubik-Regular';
+font-size: 20px;
+}
+
+.Titulo {
+font-family: 'Rubik-Bold';
+font-size: 21px;
+color: #000000;
+margin-left: 70px;
+margin-bottom: 30px;
+margin-top: 30px;
+}
+
+.imgcity {width: 300px;
+height: 200px;
+border-top-left-radius:8px;
+border-bottom-left-radius:8px;}
+
+.texttour1{position: relative;
+    font-family: 'Rubik-Regular';
+    margin-right: 10%;
+    margin-left: 9%;
+    margin-top: -0.5%;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+.texttour2{
+    font-family: 'Rubik-Regular';
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    margin-right: 10%;
+    margin-left: 10%;
+}    
+
+    .intro { box-sizing: border-box;
+        background-size: cover;
+        background: url('../Img/PARTECITY/CityCapa.png')no-repeat;
+        background-position: center 75%;
+        height: 280.5px;        
+        position: relative;
+        padding: 50px;}
+
+
+    #fotocity{display: inline-block;
+        margin: 10px;
+        justify-content: center;
+        position: relative;}
+
+button{
+    background-color: #D61018;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 5px;
+    margin: 10px;
+    outline: none;
+    margin-left: 500px;
+    border: none;
+}
+
+button:hover {
+    background-color: black;
+}
+
+.VetorCidade {
+    margin-top: 80px;
+    height: 200px;
+    width: 100%;
+}
+  

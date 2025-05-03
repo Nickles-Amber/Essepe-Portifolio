@@ -1,0 +1,147 @@
+.body{
+  margin: auto;
+}
+
+
+/*-------------------Botão Voltar-----------------*/
+
+.btn-voltar {
+  display: inline-block;
+  font-family: 'Rubik-Regular';
+  background-color: rgba(0, 0, 0, 0.01);;
+  color: black;
+  text-decoration: none;
+  padding: 8px 16px 8px 16px;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+
+  margin-top: 5%;
+}
+
+.btn-voltar:hover {
+  background-color: #D61018;
+}
+
+/**********************************************/
+
+.imgpolaroid{
+margin: 50px;
+padding-inline:15%;}
+
+main{margin:50px;}
+
+
+h1{font-family:'Rubik-bold';
+  margin-left: -8px;
+}
+
+h2{font-family:'Rubik-bold';
+color: #D61018;
+font-size: 40px;
+text-align: center;
+position: relative;
+margin-top: 0.5%;
+}
+
+h3/*Títulos*/{font-family:'Rubik-bold'; /***************************************/
+  color: #D61018;
+  font-size: 25px;
+  margin-left: 9px;
+}
+
+p{ font-family:'Rubik-Regular';}
+
+.grupo{display: flex;
+     flex-flow: row;
+     list-style: none;}
+
+
+.polaroid.opções{
+    display: flex;
+    flex-flow: column;
+    width: 230px;
+    position: absolute;
+    text-align: left;
+    margin-left: 32px;
+    margin-top: -4.5%;
+}
+
+#titulopg{margin:10;}
+
+.nome-curtir
+{display: flex;}
+
+
+
+.text{position: relative;
+    margin-right: auto;}
+
+
+.todoscat{display: inline-block;
+    box-shadow: 2px 6px 10px rgb(153, 153, 153);
+    border-radius: 10px;
+    margin: 10px;
+    justify-content: center;
+    position: relative;}
+
+
+
+  /*---------------------------filtros----------------------------*/
+
+
+
+
+  nav#filtrocat {
+    height: 40px;
+    width: 577.17px;
+    align-items: center;
+    order: 2;
+    position: relative;
+  }
+  
+  nav#filtrocat ul.filtros {
+    display: flex;
+    list-style: none;
+    position: absolute;
+    align-items: center;
+    
+  }
+  
+  nav#filtrocat ul.filtros li.cat h1 {
+    display: block;
+    width: 100%;
+   
+    padding: 0 20px;
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Rubik-Regular';
+    position: relative;
+    font-size: 13px;
+    font-family:'Rubik-Regular';
+    white-space: nowrap;}
+  
+  nav#filtrocat ul.filtros li.cat h1:after {
+    content: '';
+    width: 80%;
+    height: 20%;
+    background: #cccccc;
+    position: absolute;
+    top: 15px;
+    transition: .4s;
+    left: 15%;
+  }
+  
+  nav#filtrocat ul.filtros li.cat h1:hover:after,
+  nav#filtrocat ul.filtros li.cat h1.active:after {
+    background: #000000;
+  }
+
+
+  .VetorCidade {
+    margin-top: 80px;
+    height: 200px;
+    width: 100%;
+}
+  
+
